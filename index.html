@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Note-taking App</title>
+    <link rel='stylesheet' href='style.css'>
+</head>
+<body>
+<header>
+    <h1>My Notes</h1>
+</header>
+<div>
+    <div id="note-body">
+        <textarea placeholder="Type your task here here..." id="note-box"></textarea>
+    </div>
+
+    <div id="commands">
+        <button id="add-note">Add Note</button>
+        <button id="edit-note">Edit Note</button>
+        <select id="color-select">
+            <option value="rgb(255, 255, 255)">White</option>
+            <option value="rgb(0, 255, 0)">Green</option>
+            <option value="rgb(0, 0, 255)">Blue</option>
+            <option value="rgb(255, 0, 0)">Red</option>
+        </select>
+    </div>
+
+    <div id='list'>
+    </div>
+</div>
+
+</body>
+<script type='text/javascript' src='https://code.jquery.com/jquery-3.5.0.min.js'></script>
+<script type='text/javascript' src='https://code.jquery.com/ui/1.12.1/jquery-ui.min.js'></script>
+<script type='text/javascript' src='app.js'></script>
+</html>
