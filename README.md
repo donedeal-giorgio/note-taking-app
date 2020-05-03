@@ -9,6 +9,7 @@ some of basic functionality of Jquery and Jquery UI.
 With this app is possible to add, edit and remove a 
 note. 
 
-Each note also has a editable color attribute.
+Each note has a editable color attribute.
+
 
 
